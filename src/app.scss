@@ -1,8 +1,8 @@
 
-html{
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-}
+// html{
+//     scroll-snap-type: y mandatory;
+//     scroll-behavior: smooth;
+// }
 
 *{
     padding: 0;
@@ -11,7 +11,7 @@ html{
     font-family: "DM Sans",sans-serif;
 }
 body{
-    background-color: #0c0c1d;
+    background: linear-gradient(180deg,#d1cfcf,#9d9dba);
     color: lightgray;
 }
 a{
@@ -19,10 +19,10 @@ a{
     color: inherit;
 }
 
-section{
-    height: 100vh;
-    scroll-snap-align: center;
-}
+// section{
+//     height: auto;
+//     scroll-snap-align: center;
+// }
 
 
 .course{
@@ -53,3 +53,5 @@ section{
         @content;
     }
 }
+
+

@@ -6,6 +6,8 @@ import AboutPage from './Components/AboutPage/AboutPage'
 import Works from './Components/Works/Works'
 import { Parallax } from 'react-parallax';
 import Contact from './Components/Contacts/Contact'
+import Products from './Components/Producs/Products'
+import Secondnavbar from './Components/SecondNavbar/Secondnavbar'
 
 
 
@@ -13,13 +15,16 @@ function App() {
   return (
     <>
       <div>
+        <div>
+          <Secondnavbar />
+        </div>
         <section id='Home'>
-          <Navbar />
           <RainbowHome />
         </section>
-        <section ><AboutPage /></section>
-        <Works />
-        <section id='Contact Us'><Contact /></section>
+        <section id='aboutpage'><AboutPage /></section>
+        {/* <Works /> */}
+        <section id='products' ><Products /></section>
+        <section id='contact'><Contact /></section>
       </div>
     </>
   )
